@@ -1,0 +1,16 @@
+export 'package:coffee_shop/resources/colors.dart';
+export 'package:coffee_shop/screens/Welcome_screen.dart';
+export 'package:flutter/material.dart';
+export 'package:get/get_navigation/src/root/get_material_app.dart';
+export 'package:coffee_shop/Widgets/home_bottom_bar.dart';
+export 'package:coffee_shop/Widgets/items_widgets.dart';
+export 'package:coffee_shop/resources/fonts.dart';
+export 'package:get/get_core/src/get_main.dart';
+export 'package:get/get_navigation/get_navigation.dart';
+export 'package:coffee_shop/resources/assets.dart';
+export 'package:coffee_shop/screens/home_screen.dart';
+export 'package:google_fonts/google_fonts.dart';
+export 'package:coffee_shop/resources/controller.dart';
+export 'package:coffee_shop/screens/single_item_screen.dart';
+export 'package:get/get.dart';
+export 'package:flutter_screenutil/flutter_screenutil.dart';
