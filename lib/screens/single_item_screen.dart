@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../export_all.dart';
 
 // ignore: must_be_immutable
@@ -13,7 +12,7 @@ class SingleItemScreen extends StatefulWidget {
 }
 
 class _SingleItemScreenState extends State<SingleItemScreen> {
-  final _addController = Get.put(addController());
+  final _addController = Get.put(AddController());
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -65,7 +64,7 @@ class _SingleItemScreenState extends State<SingleItemScreen> {
                       widget.names,
                       style: AppTextStyle.medium.copyWith(
                           fontSize: 30,
-                          color: AppColors.containerColor,
+                          color: AppColors.white,
                           fontWeight: FontWeight.bold),
                     ),
                     SizedBox(
@@ -76,7 +75,7 @@ class _SingleItemScreenState extends State<SingleItemScreen> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          GetBuilder<addController>(
+                          GetBuilder<AddController>(
                             init: _addController,
                             builder: (controller) {
                               return Container(

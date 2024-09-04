@@ -1,5 +1,3 @@
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 import '../export_all.dart';
 
 class WelcomeScreen extends StatefulWidget {

@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-class addController extends GetxController {
+class AddController extends GetxController {
   int count = 0;
 
   void increment() {

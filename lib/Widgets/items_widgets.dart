@@ -1,6 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 import '../export_all.dart';
 
 class ItemsWidgets extends StatelessWidget {
@@ -63,7 +61,7 @@ class ItemsWidgets extends StatelessWidget {
                         Text(
                           names[i],
                           style: AppTextStyle.medium.copyWith(
-                              fontSize: 18.sp, color: AppColors.containerColor),
+                              fontSize: 18.sp, color: AppColors.white),
                         ),
                         Text(
                           "Best Coffee",
@@ -81,8 +79,8 @@ class ItemsWidgets extends StatelessWidget {
                     children: [
                       Text(
                         "\$30",
-                        style: AppTextStyle.medium.copyWith(
-                            fontSize: 18.sp, color: AppColors.containerColor),
+                        style: AppTextStyle.medium
+                            .copyWith(fontSize: 18.sp, color: AppColors.white),
                       ),
                       Container(
                         padding: EdgeInsets.all(5.r),
@@ -92,7 +90,7 @@ class ItemsWidgets extends StatelessWidget {
                         child: const Icon(
                           CupertinoIcons.add,
                           size: 20,
-                          color: AppColors.containerColor,
+                          color: AppColors.white,
                         ),
                       )
                     ],

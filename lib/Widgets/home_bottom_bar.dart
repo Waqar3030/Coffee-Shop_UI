@@ -24,17 +24,17 @@ class HomeBottomBar extends StatelessWidget {
           ),
           Icon(
             Icons.favorite_outline,
-            color: AppColors.containerColor,
+            color: AppColors.white,
             size: 35,
           ),
           Icon(
             Icons.notifications,
-            color: AppColors.containerColor,
+            color: AppColors.white,
             size: 35,
           ),
           Icon(
             Icons.person,
-            color: AppColors.containerColor,
+            color: AppColors.white,
             size: 35,
           ),
         ],
